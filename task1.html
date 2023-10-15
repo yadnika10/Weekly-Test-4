@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter the Rows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task-list">
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+    </div>
+
+    <div class="main-container">
+        <p class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="myInput" onkeyup="myFunction()"
+            placeholder="Search for names..">
+        </p>
+        <table id="myTable" border="">
+            <tr>
+                <th>Customer Name</th>
+                <th>Country</th>
+                <th>Company</th>
+            </tr>
+            <tr>
+                <td>Yadnika Sahane</td>
+                <td>India</td>
+                <td>Google</td>
+            </tr>
+            <tr>
+                <td>Mansi Hirve</td>
+                <td>Australlia</td>
+                <td>Netflix</td>
+            </tr>
+            <tr>
+                <td>Dehali Sahane</td>
+                <td>USA</td>
+                <td>Apple</td>
+            </tr>
+            <tr>
+                <td>Sushmita Mahajan</td>
+                <td>Italy</td>
+                <td>JP Morgan</td>
+            </tr>
+            <tr>
+                <td>Mrunali Panvalkar</td>
+                <td>Canada</td>
+                <td>Facebook</td>
+            </tr>
+            <tr>
+                <td>Angelina Karol</td>
+                <td>Germany</td>
+                <td>Amazon</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

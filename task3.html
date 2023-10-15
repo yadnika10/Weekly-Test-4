@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task-list">
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+    </div>
+    <h2>Login Page</h2>
+    <div class="container">
+        <img src="https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg" alt="">
+        <hr>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password">
+            <br>
+            <div style="cursor: pointer;">Forget Password?</div>
+            <br>
+            <button type="submit">Login</button>
+            <br>
+            <button onclick="resetForm()">Reset</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
